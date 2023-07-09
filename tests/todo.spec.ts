@@ -3,7 +3,7 @@ import SignUpPage from '../pages/SignUpPage'
 import TodoPage from '../pages/TodoPage'
 import NewTodoPage from '../pages/NewTodoPage'
 
-test.describe('Add new todo', () => {
+test.describe.parallel('Add new todo', () => {
     let signUpPage: SignUpPage
     let todoPage: TodoPage
     let newTodoPage: NewTodoPage

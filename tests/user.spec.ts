@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test'
+import { test } from '@playwright/test'
 import SignUpPage from '../pages/SignUpPage'
 
 test.describe('Signup New User', () => {
@@ -8,7 +8,7 @@ test.describe('Signup New User', () => {
         signUpPage = new SignUpPage(page)
         await signUpPage.visit()
     })
-    test('should be able to register to our application', async ({page, request}) => {
+    test('should be able to register to our application', async ({page}) => {
         await signUpPage.registerAsNewUser()
     })  
 })

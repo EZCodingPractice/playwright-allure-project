@@ -3,8 +3,6 @@ import User from '../models/User'
 import UserApi from '../apis/UserApi'
 import TodoPage from './TodoPage'
 
-
-
 class SignupPage {
     readonly page: Page
     readonly firstNameInput: Locator
@@ -12,15 +10,15 @@ class SignupPage {
     readonly emailInput: Locator
     readonly passwordInput: Locator
     readonly confirmPasswordInput: Locator
-    readonly submitButton: Locator
+    readonly submitButton: Locator 
 
     constructor(page: Page) {
-        this.page = page
+        this.page = page 
         this.firstNameInput = page.locator('[data-testid=first-name]')
         this.lastNameInput = page.locator('[data-testid=last-name]')
         this.emailInput = page.locator('[data-testid=email]')
         this.passwordInput = page.locator('[data-testid=password]')
-        this.confirmPasswordInput = page.locator('[data-testid=confirm-password]')
+        this.confirmPasswordInput = page.locator('[data-testid=confirm-password]') 
 
         this.submitButton = page.locator('[data-testid=submit]')
 

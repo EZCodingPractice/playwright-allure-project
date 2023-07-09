@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 09 14:09:05 GMT 2023","Sun Jul 09 14:09:08 GMT 2023","3763","chromium","","Add new todo","","","should be able to delete a todo",""
+"passed","Sun Jul 09 14:09:08 GMT 2023","Sun Jul 09 14:09:10 GMT 2023","1998","chromium","","Signup New User","","","should be able to register to our application",""
+"passed","Sun Jul 09 14:09:01 GMT 2023","Sun Jul 09 14:09:04 GMT 2023","3610","chromium","","Add new todo","","","should be able to add a new todo item using API",""
+"passed","Sun Jul 09 14:08:57 GMT 2023","Sun Jul 09 14:09:01 GMT 2023","3692","chromium","","Add new todo","","","should be able to add a new todo",""

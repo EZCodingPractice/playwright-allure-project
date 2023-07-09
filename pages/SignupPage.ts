@@ -3,7 +3,7 @@ import User from '../models/User'
 import UserApi from '../apis/UserApi'
 import TodoPage from './TodoPage'
 
-class SignupPage {
+class SignUpPage {
     readonly page: Page
     readonly firstNameInput: Locator
     readonly lastNameInput: Locator
@@ -64,4 +64,4 @@ class SignupPage {
 
 }
 
-export default SignupPage
+export default SignUpPage
